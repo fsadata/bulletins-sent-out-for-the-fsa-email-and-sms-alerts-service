@@ -1,0 +1,1 @@
+# bulletins-sent-out-for-the-fsa-email-and-sms-alerts-service

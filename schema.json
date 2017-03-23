@@ -1,0 +1,53 @@
+{
+	"fields": [
+		{
+			"name": "SentDate",
+			"title": "SentDate",
+			"constraints": {
+				"required": true,
+				"type": "http://www.w3.org/2001/XMLSchema#date",
+				"datePattern": "%Y-%m-%d"
+			}
+		},
+		{
+			"name": "BulletinSubject",
+			"title": "Bulletin Subject",
+			"constraints": {
+				"required": true,
+				"type": "http://www.w3.org/2001/XMLSchema#string"
+			}
+		},
+		{
+			"name": "SubscriberListSentTo",
+			"title": "Which subscribers the bulletin was sent to",
+			"constraints": {
+				"required": true,
+				"type": "http://www.w3.org/2001/XMLSchema#string"
+			}
+		},
+		{
+			"name": "TotalRecipients",
+			"title": "Total recipients",
+			"constraints": {
+				"required": true,
+				"type": "http://www.w3.org/2001/XMLSchema#int"
+			}
+		},
+		{
+			"name": "PercentDelivered",
+			"title": "Percent delivered",
+			"constraints": {
+				"required": true,
+				"type": "http://www.w3.org/2001/XMLSchema#float"
+			}
+		},
+		{
+			"name": "TotalEmailOpens",
+			"title": "Total email opens",
+			"constraints": {
+				"required": true,
+				"type": "http://www.w3.org/2001/XMLSchema#int"
+			}
+		}
+	]
+}
